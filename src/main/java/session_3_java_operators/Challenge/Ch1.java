@@ -9,7 +9,7 @@ public class Ch1 {
         System.out.println("Enter your first Number");
         int x = scanner.nextInt();
         System.out.println("Enter your second Number");
-        int y = scanner.nextInt() ;
+        int y = scanner.nextInt();
 
         int addition = x + y;
         int subtraction = x - y;

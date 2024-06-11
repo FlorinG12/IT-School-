@@ -15,9 +15,9 @@ public class Ch6 {
         if (firstNumber > secondNumber) {
             System.out.println("First number is greater");
 
-        }else  if (firstNumber < secondNumber) {
+        } else if (firstNumber < secondNumber) {
             System.out.println("First number is less or equal than ");
-        } else  {
+        } else {
             System.out.println("First number is equal to second number");
         }
 

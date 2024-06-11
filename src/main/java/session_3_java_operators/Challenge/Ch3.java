@@ -10,11 +10,11 @@ public class Ch3 {
         System.out.println("type your number ");
         double num = scanner.nextDouble();
 
-if ( num > 0) {
-    System.out.println( "Your number is positive");
+        if (num > 0) {
+            System.out.println("Your number is positive");
 
-} else if (num < 0) {
-    System.out.println("Your number is negative ");
-}
+        } else if (num < 0) {
+            System.out.println("Your number is negative ");
+        }
     }
 }
