@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Challenge1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("Enter your first Number");
         int x = scanner.nextInt();
         System.out.println("Enter your second Number");

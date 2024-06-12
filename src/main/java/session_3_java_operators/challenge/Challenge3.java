@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class Challenge3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.println("type your number ");
         double num = scanner.nextDouble();
         if (num > 0) {
