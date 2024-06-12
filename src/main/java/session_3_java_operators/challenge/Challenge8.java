@@ -1,6 +1,6 @@
-package session_3_java_operators.Challenge;
+package session_3_java_operators.challenge;
 
-public class Ch8 {
+public class Challenge8 {
     public static void main(String[] args) {
 
         byte a = 2;

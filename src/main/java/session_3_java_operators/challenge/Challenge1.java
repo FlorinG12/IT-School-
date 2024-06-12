@@ -1,8 +1,8 @@
-package session_3_java_operators.Challenge;
+package session_3_java_operators.challenge;
 
 import java.util.Scanner;
 
-public class Ch1 {
+public class Challenge1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,7 +10,6 @@ public class Ch1 {
         int x = scanner.nextInt();
         System.out.println("Enter your second Number");
         int y = scanner.nextInt();
-
         int addition = x + y;
         int subtraction = x - y;
         int multiplication = x * y;

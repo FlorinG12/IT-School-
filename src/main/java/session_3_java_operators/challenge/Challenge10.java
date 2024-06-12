@@ -1,8 +1,8 @@
-package session_3_java_operators.Challenge;
+package session_3_java_operators.challenge;
 
 import java.util.Scanner;
 
-public class Ch10 {
+public class Challenge10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

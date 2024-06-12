@@ -1,6 +1,6 @@
-package session_3_java_operators.Challenge;
+package session_3_java_operators.challenge;
 
-public class Ch4 {
+public class Challenge4 {
     public static void main(String[] args) {
 
 
