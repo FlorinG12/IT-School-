@@ -5,13 +5,12 @@ import java.util.Scanner;
 public class Extra1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Price of product : ");
-        double product = scanner.nextDouble();
-        System.out.println("Money received: ");
-        double money = scanner.nextDouble();
-
-        double rest = product - money;
-        System.out.println("Rest = " + rest);
-
+        double item = 23.99;
+        double money = 100;
+        System.out.println("Quantity of product :");
+        int quantity = scanner.nextInt();
+        double total = item * quantity;
+        double rest = money - total;
+        System.out.println("Your products cost : " + total + " and the rest is : " + rest);
     }
 }
