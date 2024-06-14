@@ -16,7 +16,6 @@ public class MemoryReference {
         System.out.println(user1.equals(user2));
     }
 }
-
 class User {
     String firstName;
 
