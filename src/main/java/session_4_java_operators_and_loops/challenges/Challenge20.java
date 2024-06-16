@@ -11,9 +11,7 @@ public class Challenge20 {
         int b = scanner.nextInt();
         System.out.println("Enter the third number :");
         int c = scanner.nextInt();
-
         int largestNum = (a > b) ? (a > c ? a : c) : (b >= c ? b : c);
         System.out.println("The largest number is " + largestNum);
-
     }
 }
