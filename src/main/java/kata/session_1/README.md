@@ -12,10 +12,10 @@ Add a constructor to initialize the name, age, and address.
 
 Add the following methods:
 
--getName(): Returns the name of the person.
--setName(String name): Sets the name of the person.
--getAge(): Returns the age of the person.
--setAge(int age): Sets the age of the person.
--getAddress(): Returns the address of the person.
--setAddress(String address): Sets the address of the person.
--displayInfo(): Prints the person's name, age, and address.
+- getName(): Returns the name of the person.
+- setName(String name): Sets the name of the person.
+- getAge(): Returns the age of the person.
+- setAge(int age): Sets the age of the person.
+- getAddress(): Returns the address of the person.
+- setAddress(String address): Sets the address of the person.
+- displayInfo(): Prints the person's name, age, and address.
