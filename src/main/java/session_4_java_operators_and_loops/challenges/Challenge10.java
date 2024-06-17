@@ -8,6 +8,7 @@ public class Challenge10 {
         listOne.add("Marco");
         listOne.add("Polo");
         listOne.add("Fruits");
+
         ArrayList<String> listTwo = listOne;
         listOne.add("15");
         listTwo.add("Age");

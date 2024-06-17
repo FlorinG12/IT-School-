@@ -6,7 +6,8 @@ public class Challenge17 {
     public static void main(String[] args) {
         boolean hasUsername = false;
         boolean hasPassword = false;
-        //LOGICAL OPERATORS
+                                     //LOGICAL OPERATORS
+
         if (hasUsername && hasPassword) {
             System.out.println("Authentication successful");
         } else if (!hasUsername || !hasPassword) {
@@ -15,7 +16,7 @@ public class Challenge17 {
             } else {
                 System.out.println("Authentication failed");
             }
-            //TERNARY OPERATORS
+                                      //TERNARY OPERATORS
 
 //        String authentication = (hasUsername && hasPassword) ? "Authentication Success" :(hasUsername && !hasPassword) ? "Password is incorrect" :"Authentication Failed";
 //        System.out.println(authentication);

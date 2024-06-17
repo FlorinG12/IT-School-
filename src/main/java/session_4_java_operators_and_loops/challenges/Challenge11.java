@@ -9,6 +9,7 @@ public class Challenge11 {
         int d = 40;
         int additionResult = a + b;
         int multiplicationResult = c * d;
+
         System.out.println("The result of a + b is : " + additionResult);
         System.out.println("The result of c * d is : " + multiplicationResult);
     }

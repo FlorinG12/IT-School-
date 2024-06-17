@@ -6,7 +6,9 @@ public class Challenge5 {
     }
     public static void printNumbers(int number) {
         for (int index = 1; index < number; index++) {
-            System.out.println(++index);
+            if (index % 2 == 0 ){
+            System.out.println(index);
+            }
         }
     }
 }
