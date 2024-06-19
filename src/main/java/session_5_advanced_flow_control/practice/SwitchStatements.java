@@ -16,7 +16,6 @@ public class SwitchStatements {
         printSeason();
         printDayOfWeek();
     }
-
     private static void printDayOfWeek() {
         Scanner sc = new Scanner(System.in);
 

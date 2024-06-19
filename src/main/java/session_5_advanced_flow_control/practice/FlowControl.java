@@ -6,9 +6,9 @@ import java.util.List;
 public class FlowControl {
 
     public static void main(String[] args) {
-//printNumberWithWhile(10);
-//printNumberWithDoWhile(10);
-//        printNumberWithFor(12);
+printNumberWithWhile(10);
+printNumberWithDoWhile(10);
+        printNumberWithFor(12);
 
         int[] arrayExample = {2, 4, 6};
         List<String> countries = new ArrayList<>();
