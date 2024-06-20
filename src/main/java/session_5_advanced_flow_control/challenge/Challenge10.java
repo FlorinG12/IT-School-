@@ -6,18 +6,12 @@ public class Challenge10 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your Username:");
-        String user = scanner.nextLine();
-        System.out.println(" ");
-        System.out.println("Enter your age:");
-        int age = scanner.nextInt();
-        System.out.println(" ");
 
         while (true) {
-            System.out.println("Hello " + user);
-            System.out.println("1. Print a message: ");
-            System.out.println("2. Print your age");
-            System.out.println("3. Exit");
+            System.out.println("Menu");
+            System.out.println("1. Print 'Hello World' ");
+            System.out.println("2. Print the user`s Name: ");
+            System.out.println("3. Exit ");
             System.out.println("Enter your choice ");
 
             int choice = scanner.nextInt();
@@ -25,22 +19,16 @@ public class Challenge10 {
             switch (choice) {
                 case 1:
                     System.out.println(" ");
-                    System.out.println("Today is a wonderful day and I hope you feel amazing " + user);
+                    System.out.println("Hello World");
                     System.out.println(" ");
                     break;
                 case 2:
-                    if (age < 18) {
-                        System.out.println(" ");
-                        System.out.println(user + " You have " + age + " years old and you are a teenager ");
-                        System.out.println(" ");
+                    System.out.println("Enter your Username");
+                    String  userName = scanner.nextLine();
+                    System.out.println("Your Username is : " +userName);
+                    System.out.println(" ");
+                    scanner.close();
                         break;
-                    }
-                    else {
-                        System.out.println(" ");
-                        System.out.println(user + " You have " + age + " years old and you are an adult ");
-                        System.out.println(" ");
-                        break;
-                    }
                 case 3:
                     System.out.println(" ");
                     System.out.println("Goodbye!");
