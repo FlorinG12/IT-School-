@@ -7,7 +7,7 @@ public class Challenge5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Enther your 'n' number:");
+        System.out.println("Enter your 'n' number:");
         int n = scanner.nextInt();
         scanner.close();
 
@@ -15,7 +15,7 @@ public class Challenge5 {
     }
 
     public static void fibonacciSeries(int n) {
-        if (n> 0){
+        if (n > 0) {
             System.out.println("The number should be more than 0");
         }
         int firstTerm = 0;
@@ -27,6 +27,7 @@ public class Challenge5 {
             int nextTerm = firstTerm + secondTerm;
             firstTerm = secondTerm;
             secondTerm = nextTerm;
+
         }
 
     }
