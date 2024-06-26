@@ -10,6 +10,7 @@ public class Challenge7 {
         LocalDate newDate = addWeeksToToday(addWeeks);
         System.out.println("Date form today: " + todayDate + " + " + addWeeks + " weeks is equal to : " + newDate);
     }
+
     public static LocalDate addWeeksToToday(int weeks) {
 
         LocalDate today = LocalDate.now();

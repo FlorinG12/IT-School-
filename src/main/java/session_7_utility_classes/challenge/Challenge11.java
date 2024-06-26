@@ -10,7 +10,7 @@ public class Challenge11 {
     public static void main(String[] args) {
         String time = "23:00:00";
 
-elapseTimeSince(time);
+        elapseTimeSince(time);
     }
 
     public static void elapseTimeSince(String priorTime) {
@@ -21,8 +21,8 @@ elapseTimeSince(time);
 
             Duration duration = Duration.between(prior, now);
             long hours = duration.toHours();
-            long minutes = duration.toMinutes() %60;
-            long seconds = duration.toSeconds() %60;
+            long minutes = duration.toMinutes() % 60;
+            long seconds = duration.toSeconds() % 60;
             System.out.printf("Elapse time: %02d:%02d:%02d\n", hours, minutes, seconds);
         } catch (DateTimeParseException e) {
             System.out.println("Time format not correct try like this: HH:mm:ss");

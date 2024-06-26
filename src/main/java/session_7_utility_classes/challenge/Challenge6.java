@@ -8,6 +8,7 @@ public class Challenge6 {
     public static void main(String[] args) {
         displayCurrentTime();
     }
+
     public static void displayCurrentTime() {
 
         LocalTime currentTime = LocalTime.now();

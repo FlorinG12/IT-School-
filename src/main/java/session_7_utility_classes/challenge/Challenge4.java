@@ -20,11 +20,11 @@ public class Challenge4 {
             System.out.println("Enter the second date : YYYY-MM-DD");
             String secondDateInput = scanner.next();
             LocalDate secondDate = LocalDate.parse(secondDateInput);
-
-
             System.out.println(fistDate.isEqual(secondDate));
+
         } catch (DateTimeParseException e) {
             System.out.println("Invalid date format  try yyyy-mm-dd");
-        }scanner.close();
+        }
+        scanner.close();
     }
 }
