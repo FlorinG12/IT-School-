@@ -14,6 +14,6 @@ public class Challenge6 {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
         String actualTime = currentTime.format(formatter);
 
-        System.out.println("My time here is: " + actualTime);
+        System.out.println("My time in this zone is: " + actualTime);
     }
 }
