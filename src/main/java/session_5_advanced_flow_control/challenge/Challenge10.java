@@ -2,7 +2,7 @@ package session_5_advanced_flow_control.challenge;
 
 import java.util.Scanner;
 
-public class Challenge10 {
+public class    Challenge10 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
