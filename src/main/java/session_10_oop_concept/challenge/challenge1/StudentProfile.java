@@ -1,4 +1,4 @@
-package session_10_oop_concept.challenge.college_management;
+package session_10_oop_concept.challenge.challenge1;
 
 public class StudentProfile {
 
