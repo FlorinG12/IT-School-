@@ -1,4 +1,4 @@
-package session_10_oop_concept.practice;
+package session_10_oop_concepts.practice;
 
 public class Animal {
 
