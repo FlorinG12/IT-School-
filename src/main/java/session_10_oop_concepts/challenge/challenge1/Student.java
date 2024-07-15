@@ -1,24 +1,24 @@
-package session_10_oop_concept.challenge.challenge1;
+package session_10_oop_concepts.challenge.challenge1;
 
-public class StudentProfile {
+public class Student {
 
     public String firstName;
     public String lastName;
     public int age;
-    public String male;
+    public enum gender {Male, Female, Other};
     private String dateOfBirth;
     private long CNP;
     private String address;
 
-    public StudentProfile(String firstName, String lastName, int age, String male, String dateOfBirth, long CNP, String address) {
+    public Student(String firstName, String lastName, int age,  String dateOfBirth, long CNP, String address) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
-        this.male = male;
         this.dateOfBirth = dateOfBirth;
         this.CNP = CNP;
         this.address = address;
     }
+
 
     public String getFirstName() {
         return firstName;
@@ -30,10 +30,6 @@ public class StudentProfile {
 
     public int getAge() {
         return age;
-    }
-
-    public String getMale() {
-        return male;
     }
 
     public String getDateOfBirth() {
