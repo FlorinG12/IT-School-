@@ -1,9 +1,6 @@
 package session_10_oop_concepts.challenge.challenge1;
 
-import java.time.LocalDate;
-
 public class Course {
-
     String duration;
     String description;
 

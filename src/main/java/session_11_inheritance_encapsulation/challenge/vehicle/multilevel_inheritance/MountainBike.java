@@ -1,8 +1,6 @@
 package session_11_inheritance_encapsulation.challenge.vehicle.multilevel_inheritance;
 
 public class MountainBike extends Bicycle {
-
-
     private String suspension;
 
     public String getSuspension() {
@@ -21,7 +19,5 @@ public class MountainBike extends Bicycle {
         } else {
             return "Suspension mode balanced";
         }
-
     }
-
 }

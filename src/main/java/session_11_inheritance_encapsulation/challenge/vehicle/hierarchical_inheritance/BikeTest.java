@@ -3,7 +3,6 @@ package session_11_inheritance_encapsulation.challenge.vehicle.hierarchical_inhe
 public class BikeTest {
 
     public static void main(String[] args) {
-
         Bicycle bicycle = new Bicycle();
         bicycle.setSpeed(50);
         System.out.println("Current speed " + bicycle.getSpeed());

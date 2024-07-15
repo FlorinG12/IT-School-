@@ -1,7 +1,6 @@
 package session_11_inheritance_encapsulation.challenge.vehicle.hierarchical_inheritance;
 
 public class Bicycle {
-
     private int speed;
     private int gear;
 
@@ -19,7 +18,6 @@ public class Bicycle {
 
     public void setGear(int gear) {
         this.gear = gear;
-
     }
 
     public int speedUp(int speed) {

@@ -1,10 +1,6 @@
 package session_11_inheritance_encapsulation.challenge.vehicle.multilevel_inheritance;
 
-import java.lang.reflect.Array;
-import java.util.List;
-
 public class TireType extends MountainBike {
-
     private String tireModelName;
     private String tireType;
     private double tireSize;
@@ -32,6 +28,4 @@ public class TireType extends MountainBike {
     public void setTireSize(double tireSize) {
         this.tireSize = tireSize;
     }
-
-
 }

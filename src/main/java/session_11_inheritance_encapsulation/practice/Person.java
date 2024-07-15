@@ -1,7 +1,6 @@
 package session_11_inheritance_encapsulation.practice;
 
 public class Person {
-
     private String fistName;
     private String lastName;
     private int age;

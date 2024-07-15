@@ -4,8 +4,6 @@ public class MainClass {
 
     public static void main(String[] args) {
 
-Student.String(0, " Test");
-
+        Student.String(0, " Test");
     }
-
 }

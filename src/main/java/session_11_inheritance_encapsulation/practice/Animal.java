@@ -21,7 +21,6 @@ class Main {
 
         Dog dog = new Dog();
         dog.eat();
-
         Animal dog2 = new Animal();
         dog2.eat();
     }

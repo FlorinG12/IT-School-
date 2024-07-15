@@ -3,7 +3,6 @@ package session_11_inheritance_encapsulation.challenge.vehicle.multilevel_inheri
 public class BikeTest {
 
     public static void main(String[] args) {
-
         Bicycle bicycle = new Bicycle();
         bicycle.setSpeed(40);
         System.out.println("Your speed is : " + bicycle.getSpeed());
