@@ -1,7 +1,6 @@
 package session_10_oop_concepts.challenge.challenge3;
 
 public class UserAccount {
-
     private String userName;
     private String accountId;
     private double accountBalance;
