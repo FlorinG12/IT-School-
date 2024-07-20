@@ -1,0 +1,8 @@
+package session_14_polymorphism.challenge.challenge1.reference_vs_object;
+
+public class Vehicle {
+
+    public String getFuel() {
+        return "fuel type";
+    }
+}
