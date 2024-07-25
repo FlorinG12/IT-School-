@@ -1,4 +1,4 @@
-package session_14_polymorphism.challenge.composition;
+package session_14_polymorphism.practice.composition;
 
 public class Car {
 
