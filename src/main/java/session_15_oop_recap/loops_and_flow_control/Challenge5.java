@@ -1,4 +1,4 @@
-package session_15_oop_recap.challenge.loops_and_flow_control;
+package session_15_oop_recap.loops_and_flow_control;
 
 import java.util.Scanner;
 
