@@ -1,6 +1,7 @@
 package session_17_equals_hashcode_generics.challenge.challenge_12;
 
 public class Challenge12<K, V, N> {
+
     private K key;
     private V value;
     private N number;

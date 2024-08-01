@@ -32,5 +32,4 @@ public class Rectangle {
     public int hashCode() {
         return Objects.hash(width, height);
     }
-
 }

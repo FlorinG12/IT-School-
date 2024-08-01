@@ -4,10 +4,10 @@ import java.util.Objects;
 
 public class Student {
 
+    private long id;
     private String firstName;
     private String lastName;
     private int age;
-    private int id;
     private String email;
 
     public Student(String firstName, String lastName, int age, String email) {
@@ -48,6 +48,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return firstName +" "+ lastName + " is " + age + " years old " + " and have this email: " + email;
+        return firstName + " " + lastName + " is " + age + " years old " + " and have this email: " + email;
     }
 }

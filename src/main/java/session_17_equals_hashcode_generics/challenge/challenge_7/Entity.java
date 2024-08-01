@@ -1,13 +1,16 @@
 package session_17_equals_hashcode_generics.challenge.challenge_7;
 
+import java.sql.Time;
+import java.sql.Timestamp;
 import java.util.Objects;
 
 public class Entity {
+
     private int id;
     private String name;
-    private long timestamp;
+    private Timestamp timestamp;
 
-    public Entity(int id, String name, long timestamp) {
+    public Entity(int id, String name, Timestamp timestamp) {
         this.id = id;
         this.name = name;
         this.timestamp = timestamp;
@@ -21,7 +24,7 @@ public class Entity {
         return name;
     }
 
-    public long getTimestamp() {
+    public Timestamp getTimestamp() {
         return timestamp;
     }
 

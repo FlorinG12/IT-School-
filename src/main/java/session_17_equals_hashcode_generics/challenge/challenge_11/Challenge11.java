@@ -9,7 +9,6 @@ public class Challenge11 {
         System.out.println("Numbers before swap: " + Arrays.toString(number));
         swapElements(number, 0, 3);
         System.out.println("Numbers after swap: " + Arrays.toString(number));
-
     }
 
     public static void swapElements(Object[] a, int index1, int index2) {

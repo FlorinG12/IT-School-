@@ -3,6 +3,7 @@ package session_17_equals_hashcode_generics.challenge.challenge_4;
 import java.util.Objects;
 
 public class Song {
+
     private String title;
     private String artist;
     private double length;
@@ -27,8 +28,9 @@ public class Song {
         Song song = (Song) o;
         return title.equals(song.title) && Objects.equals(artist, song.artist);
     }
+
     @Override
-    public  int hashCode(){
-        return Objects.hash(title,artist);
+    public int hashCode() {
+        return Objects.hash(title, artist);
     }
 }

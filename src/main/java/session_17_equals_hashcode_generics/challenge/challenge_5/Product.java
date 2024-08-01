@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class Product {
 
+    private long id;
     private String name;
     private double price;
-    private long id;
 
     public Product(long id) {
         this.id = id;

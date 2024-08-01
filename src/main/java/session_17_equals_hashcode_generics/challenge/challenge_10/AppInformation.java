@@ -1,15 +1,18 @@
 package session_17_equals_hashcode_generics.challenge.challenge_10;
 
+import java.time.LocalDate;
+
 public class AppInformation {
-    private String name;
+
     private long id;
-    private String dateOfLastUpdate;
+    private String name;
+    private LocalDate dateTime;
     private String version;
 
-    public AppInformation(String name, long id, String dateOfLastUpdate, String version) {
-        this.name = name;
+    public AppInformation(long id, String name, LocalDate dateTime, String version) {
         this.id = id;
-        this.dateOfLastUpdate = dateOfLastUpdate;
+        this.name = name;
+        this.dateTime = dateTime;
         this.version = version;
     }
 
@@ -21,20 +24,22 @@ public class AppInformation {
         return id;
     }
 
-    public String getDateOfLastUpdate() {
-        return dateOfLastUpdate;
+    public LocalDate getDateTime() {
+        return dateTime;
     }
 
     public String getVersion() {
         return version;
     }
 
+    public void setDateTime(LocalDate dateTime) {
+        this.dateTime = dateTime;
+    }
+
     @Override
     public String toString() {
-        return "Name of the app: '" + name +
-                "' Version: '" + version +
-                "' Last Update: '" + dateOfLastUpdate +
-                "' App id: '" + id+ "'";
+        return "App info:" + name +
+                " Version info: " + version +
+                " Update on : " + dateTime;
     }
 }
-

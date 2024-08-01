@@ -14,7 +14,8 @@ public class DayScheduler extends TreeMap<String, String> {
     public void addEvent(String time, String event) {
         this.put(time, event);
     }
-    public DayOfWeek getDayOfWeek(){
+
+    public DayOfWeek getDayOfWeek() {
         return dayOfWeek;
     }
 }

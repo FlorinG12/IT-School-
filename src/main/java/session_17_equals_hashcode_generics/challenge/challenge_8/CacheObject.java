@@ -4,8 +4,8 @@ import java.util.Objects;
 
 public class CacheObject {
 
-    private  String key;
-    private  String value;
+    private String key;
+    private String value;
 
     public CacheObject(String key, String value) {
         this.key = key;
