@@ -1,0 +1,20 @@
+<bookstore>
+    <book>
+        <isbn>123-456-789</isbn>
+        <title>The Great Adventure</title>
+        <author>John Doe</author>
+        <price>19.99</price>
+    </book>
+    <book>
+        <isbn>143-456-789</isbn>
+        <title>Hansel and Gretel</title>
+        <author>Jacob Grimm</author>
+        <price>10.99</price>
+    </book>
+    <book>
+        <isbn>153-456-789</isbn>
+        <title>Lord of the Rings</title>
+        <author>John Ronald Reuel Tolkien</author>
+        <price>45.99</price>
+    </book>
+</bookstore>
