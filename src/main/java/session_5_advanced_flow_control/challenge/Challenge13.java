@@ -17,12 +17,9 @@ public class Challenge13 {
         for (int a = 0; a < maze.length; a++) {
             for (int b = 0; b < maze[a].length; b++) {
                 if (maze[a][b] == move) {
-
                     break;
                 }
             }
         }
-
-
     }
 }

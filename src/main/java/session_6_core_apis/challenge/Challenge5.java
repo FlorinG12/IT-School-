@@ -24,8 +24,6 @@ public class Challenge5 {
                 sb.append(ch);
             }
         }
-
-
         return sb.toString();
     }
 }
